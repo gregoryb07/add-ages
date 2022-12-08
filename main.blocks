@@ -1,0 +1,35 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="7+,yaG:cPew*iCEB(gJK">Player</variable><variable type="KIND_SpriteKind" id="c_N2#(1*7,2`{U|n@1+X">Projectile</variable><variable type="KIND_SpriteKind" id="X/TC@{n1S`S}Yp)oPaDG">Food</variable><variable type="KIND_SpriteKind" id="[38::zhJ`ao/RywF:{kh">Enemy</variable><variable id="hk*D~U`8ETdX+S`]+s*s">answer</variable><variable id="=u!U_I$O~hGK5v@Ly6+G">Average</variable><variable id="e!)gSD9^f@(~?~nhMnw]">mySprite</variable><variable id="c^DyJk2)5{AK%TzKk=_O">mySprite2</variable></variables><block type="pxt-on-start" id="g_I]-)FXpVn9#Q[;K5Q(" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="Y`,tP#%Oh~$LWr@RXSOf"><field name="VAR" id="hk*D~U`8ETdX+S`]+s*s">answer</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="math_arithmetic" id="-SOM3ou?IA(vVZHe)s`]"><field name="OP">ADD</field><value name="A"><shadow type="math_number" id="JcWS%ZNf=NxCIR77[mZj"><field name="NUM">15</field></shadow></value><value name="B"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="math_arithmetic" id="3?7=Kvynzaiw.~57U:6,"><field name="OP">ADD</field><value name="A"><shadow type="math_number" id="YrCpeSo/qEnB)#tDRGX%"><field name="NUM">15</field></shadow></value><value name="B"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="math_arithmetic" id="J9P]+C~SmTkrX46S91RC"><field name="OP">ADD</field><value name="A"><shadow type="math_number" id="XMSZ^#v2bDs_ep|}-2Jn"><field name="NUM">16</field></shadow></value><value name="B"><shadow type="math_number" id="~[o$iQYv|(A$_^(7nu_5"><field name="NUM">15</field></shadow></value></block></value></block></value></block></value><next><block type="gameSplash" id="S-L(UvX2W}rD5UDI.qBa"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="title"><shadow type="text"><field name="TEXT"></field></shadow><block type="text_join" id=".Hc)Oiwwrdy+Ry+dZ2cC"><mutation items="3"></mutation><value name="ADD0"><shadow type="text" id="|fVRX%PDH#{s5:n1cUvg"><field name="TEXT">The average of ages is</field></shadow></value><value name="ADD1"><shadow type="text"><field name="TEXT">World</field></shadow><block type="math_arithmetic" id="kkaz1(qSqc.@|Sx1?Qnv"><field name="OP">DIVIDE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="Uf#bY%*+^RY[t%gSw-I+"><field name="VAR" id="hk*D~U`8ETdX+S`]+s*s">answer</field></block></value><value name="B"><shadow type="math_number" id="mt9.ebxcoS-i^i.N[ulM"><field name="NUM">4</field></shadow></value></block></value><value name="ADD2"><shadow type="text" id="@:p;6,fS#]U.1Uv;gy19"><field name="TEXT">.</field></shadow></value></block></value><value name="subtitle"><shadow type="text" id="W,4FUiVIUescD;1g|=6{"><field name="TEXT"></field></shadow></value><next><block type="variables_set" id=";sw=;Ix{.k~F!1yqRwYT"><field name="VAR" id="e!)gSD9^f@(~?~nhMnw]">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="dPZ1Wu9z|4KDaBo(6X[5"><value name="img"><shadow type="screen_image_picker" id="jr=y?_)$1Iv2s;8eLi[-"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"jr=y?_)$1Iv2s;8eLi[-"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="N$^aNRBtT5S:.vz?~EOR"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="controls_if" id="[i@%:gV:tzwBRmr_H=WJ"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="phdK{c4ThxRk_@zJMe/i"><field name="BOOL">TRUE</field></shadow></value><statement name="DO0"><block type="variables_set" id="!2_-S-j7y;8f^0i.3Xm,"><field name="VAR" id="c^DyJk2)5{AK%TzKk=_O">mySprite2</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="8+d68AkP.6i#_[}8`VON"><value name="img"><shadow type="screen_image_picker" id="Lzjuv@hy02]J7=K%vM.["><field name="img">img`
+. . . . . . 2 2 2 2 . . . . . . 
+. . . . 2 2 3 3 3 3 2 e . . . . 
+. . . 2 3 d 1 1 d d 3 2 e . . . 
+. . 2 3 1 d 3 3 3 d d 3 e . . . 
+. 2 3 1 3 3 3 3 3 d 1 3 b e . . 
+. 2 1 d 3 3 3 3 d 3 3 1 3 b b . 
+2 3 1 d 3 3 1 1 3 3 3 1 3 4 b b 
+2 d 3 3 d 1 3 1 3 3 3 1 3 4 4 b 
+2 d 3 3 3 1 3 1 3 3 3 1 b 4 4 e 
+2 d 3 3 3 1 1 3 3 3 3 1 b 4 4 e 
+e d 3 3 3 3 d 3 3 3 d d b 4 4 e 
+e d d 3 3 3 d 3 3 3 1 3 b 4 b e 
+e 3 d 3 3 1 d d 3 d 1 b b e e . 
+. e 3 1 1 d d 1 1 1 b b e e e . 
+. . e 3 3 3 3 3 3 b e e e e . . 
+. . . e e e e e e e e e e . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"Lzjuv@hy02]J7=K%vM.["}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="`)_|MVAhVlvE:_u_}/c`"><field name="MEMBER">Player</field></shadow></value></block></value></block></statement><statement name="ELSE"><block type="mixer_play_sound" id=";eWcxGKL8_4hlh2Ypzig"><field name="sound">music.magicWand</field></block></statement></block></next></block></next></block></next></block></statement></block></xml>
